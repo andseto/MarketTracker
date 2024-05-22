@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MarketTracker"
         mc:Ignorable="d"
-        Title="DashBoard" Height="800" Width="1400">
+        Title="DashBoard" Height="820" Width="1410" ResizeMode="NoResize">
     <Border>
         <Grid>
             <Grid.ColumnDefinitions>
@@ -55,9 +55,21 @@
 
                 </StackPanel>
 
-                <StackPanel Width="1200" Height="495" Background="Aqua">
-                    <Border Background="#1E1D1D" Width="200" Height="200" CornerRadius="10">
+                <StackPanel Width="1200" Height="495" Background="Black">
+                    <Border Background="#1E1D1D" Width="550" Height="210" CornerRadius="10" Margin="-610,25,0,0">
                         
+                    </Border>
+
+                    <Border Background="#1E1D1D" Width="550" Height="210" CornerRadius="10" Margin="-610,25,0,-240">
+
+                    </Border>
+
+                    <Border Background="#1E1D1D" Width="550" Height="210" CornerRadius="10" Margin="610,25,0,0">
+
+                    </Border>
+
+                    <Border Background="#1E1D1D" Width="550" Height="210" CornerRadius="10" Margin="610,-680,0,0">
+
                     </Border>
                 </StackPanel>
                 
